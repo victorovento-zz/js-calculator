@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+#titulo {
+    z-index: 90000;
+    background-color: brown;
+    line-height: 200%;
+    text-align: center;
+    margin-top: 0;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    position: fixed;
+    opacity: 0.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fila{
+    padding-right: 0;
+}
+.button {
+    width: 21.5%;
+    background-color: crimson;
+    display: inline-block;
+    color: #FFFFFF;
+    transition: all .25s;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5mm;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.button:active{
+    background-color:rgb(51, 0, 0);
+}
+
+.operator {
+    background-color: tomato;
+}
+
+.equal {
+    background-color: sienna;
+}
+
+#all-buttons {
+    margin-top: 2em;
+    margin-left: auto;
+    width: 100;
+    display: grid;
+}
+
+#pantalla {
+    font-family: "Courier", monospace;
+    font-size:200%;
+    border: 2px solid gray;
+    height: 10rem;
+    display: block;   
+    top: 25vw;
+    background-color: darkslategrey;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#calculator-body{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.fila{
+    display: inline;
+}
